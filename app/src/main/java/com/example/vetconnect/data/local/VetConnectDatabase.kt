@@ -5,6 +5,7 @@ import com.example.vetconnect.data.model.Appointment
 import com.example.vetconnect.data.model.Pet
 import com.example.vetconnect.data.model.User
 
+@TypeConverters(Converters::class)
 @Database(
     entities = [User::class, Pet::class, Appointment::class],
     version = 1,

@@ -16,6 +16,7 @@
       </SelectionState>
       <SelectionState runConfigName="MainActivity">
         <option name="selectionMode" value="DROPDOWN" />
+        <DialogSelection />
       </SelectionState>
       <SelectionState runConfigName="Vetconnect App.Vetconnect.app">
         <option name="selectionMode" value="DROPDOWN" />

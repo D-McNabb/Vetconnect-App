@@ -94,19 +94,4 @@ interface VetConnectApiService {
     
     @DELETE("appointments/{appointmentId}")
     suspend fun deleteAppointment(@Path("appointmentId") appointmentId: String): ApiResponse<Unit>
-}
-
-data class RefreshTokenRequest(
-    val refreshToken: String
-)
-
-data class UpdateProfileRequest(
-    val firstName: String? = null,
-    val lastName: String? = null,
-    val phone: String? = null,
-    val address: String? = null
-)
-
-data class UpdateUserRoleRequest(
-    val role: UserRole
-) 
+} 
