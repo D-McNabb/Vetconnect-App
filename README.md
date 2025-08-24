@@ -61,12 +61,6 @@ VetConnect is a native Android app that connects to a Node.js/Express + MongoDB 
 
 ## 🎨 Design System
 
-### Color Scheme
-- **Primary**: Indigo 600 (#4F46E5)
-- **Secondary**: Teal 500 (#14B8A6)
-- **Background**: Light Gray (#F3F4F6)
-- **Surface**: White (#FFFFFF)
-
 ### Typography
 - **Headlines**: Large, Medium, Small variants
 - **Body**: Regular and Medium weights
